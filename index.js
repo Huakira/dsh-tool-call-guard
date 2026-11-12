@@ -191,7 +191,7 @@ export function apply(ctx, config) {
 export const Config = Schema.object({
   repeatLimit: Schema.number()
     .default(3)
-    .description('Rejections of the same kind in one turn before telling the model to stop and report (0 disables).'),
+    .description('Argument rejections in one turn before telling the model to stop and report (0 keeps the per-call repair hint but disables the stop-loss).'),
   stepsPerTurn: Schema.number()
     .default(60)
     .description('Steps in one turn before a one-shot progress nudge (0 disables). Never interrupts the turn.'),
