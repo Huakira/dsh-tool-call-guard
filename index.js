@@ -151,7 +151,8 @@ export function apply(ctx, config) {
     }
 
     if (event.type === 'tool/result') {
-      const text = resultText(event.data?.message)
+      const failure = event.data?.error
+      const text = [resultText(event.data?.message), failure?.reason ?? '', failure?.message ?? ''].join('\n')
       if (!isArgumentError(text)) return
       current.rejected += 1
       const missing = missingProperties(text)
