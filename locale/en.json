@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tool-call guard",
+    "description": "Guides the model to re-issue a rejected tool call with every required field, nudges for progress after a long turn, and warns once when a fragile model is selected."
+  }
+}

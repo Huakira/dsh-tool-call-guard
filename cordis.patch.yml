@@ -1,0 +1,9 @@
+- insert:
+    - id: tool-call-guard
+      name: 'dsh-tool-call-guard'
+      config:
+        repeatLimit: 3
+        stepsPerTurn: 60
+        warnOnModelSwitch: true
+        fragileModels:
+          - glm-5.3-flash
