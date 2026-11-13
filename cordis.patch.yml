@@ -1,6 +1,6 @@
 - insert:
     - id: tool-call-guard
-      name: 'dsh-tool-call-guard'
+      name: @huakira/tool-call-guard
       config:
         repeatLimit: 3
         stepsPerTurn: 60
