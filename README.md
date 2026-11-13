@@ -1,5 +1,7 @@
 # dsh-tool-call-guard
 
+> 个人自用插件，代码和文档由 AI 参与编写，不承诺维护。使用前请先备份 DSH 配置。
+
 A supplemental guard for DeepSeek Harness (dsh). It targets one failure shape: **a tool call is rejected by argument validation, and the model starts a different command instead of repairing the call** — so one omission becomes N wasted steps.
 
 It is not a replacement for the other two layers:

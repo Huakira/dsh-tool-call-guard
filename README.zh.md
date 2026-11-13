@@ -1,5 +1,7 @@
 # dsh-tool-call-guard
 
+> 个人自用插件，代码和文档由 AI 参与编写，不承诺维护。使用前请先备份 DSH 配置。
+
 DeepSeek Harness（dsh）的补充型守卫：专治「工具调用因参数被拒 → 模型换个命令继续干 → 同一个错误反复烧步数」这一类空转。
 
 它不是 `thinking-loop-guard` 的替代品。思维通道洪水（`reasoning-delta` 无限流）由那个插件负责；连续完全相同的调用由 dsh 内置的 `repeat-tool-reminder` 负责。这里只补两者都够不到的第三种形态。
