@@ -1,5 +1,5 @@
 {
-  "name": "@huakira/tool-call-guard",
+  "name": "@huakirax/tool-call-guard",
   "version": "0.1.0",
   "private": true,
   "description": "Supplemental guard for DSH: recover from rejected tool calls, keep a per-turn step budget, and warn when a known-fragile model is selected.",
