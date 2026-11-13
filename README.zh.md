@@ -34,7 +34,7 @@ GLM-5.3-Flash 在长上下文中会出现工具调用参数腐烂（稀疏注意
 
 ```bash
 cd ~/.dsh/profiles/web
-pnpm add @huakira/tool-call-guard
+dsh plugin --profile web add @huakira/tool-call-guard
 ```
 
 然后把 `dsh-tool-call-guard` 加进 `package.json` 的 `dsh.profile.bundles`，重启 dsh。
