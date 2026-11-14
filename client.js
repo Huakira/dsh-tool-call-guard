@@ -1,9 +1,9 @@
 window.__ModuleLoader__.load({
-  id: 'dsh-tool-call-guard',
+  id: '@huakirax/dsh-tool-call-guard',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
-    const KEY = 'dsh-tool-call-guard#tool-call-guard';
+    const KEY = '@huakirax/dsh-tool-call-guard#tool-call-guard';
 
     const zh = (navigator.language || '').toLowerCase().startsWith('zh');
     const T = zh ? {
