@@ -33,7 +33,7 @@ Editable from the plugin settings page: `repeatLimit`, `stepsPerTurn`, `warnOnMo
 
 ```bash
 cd ~/.dsh/profiles/web
-dsh plugin --profile web add @huakirax/tool-call-guard
+dsh plugin --profile web add @huakirax/dsh-tool-call-guard
 ```
 
 Then add `dsh-tool-call-guard` to `dsh.profile.bundles` in `package.json` and restart dsh.
